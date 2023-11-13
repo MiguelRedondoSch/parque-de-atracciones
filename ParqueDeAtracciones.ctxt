@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=ParqueDeAtracciones
+comment1.params=numAtracciones\ estaAbierto
+comment1.target=ParqueDeAtracciones(int,\ boolean)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getNumeroAtracciones()
+comment4.params=
+comment4.target=boolean\ getAbierto()
+comment5.params=name
+comment5.target=void\ setName(java.lang.String)
+comment6.params=nAtraccionesNuevas
+comment6.target=void\ setAtracciones(int)
+comment7.params=
+comment7.target=void\ setAbirto()
+numComments=8
