@@ -22,6 +22,14 @@ public class ParqueDeAtracciones
         return abierto;
     }
     
+    public String getDetalles(){
+    String estado = "No";
+    if (abierto){
+        estado = "Si";
+    }
+     return ("Nombre: " + nombreParque + " || Numero de Atracciones: " + nAtracciones + " || Abierto: " + estado);
+    }
+    
     public void setName (String name){
         nombreParque = name;
     }
@@ -37,5 +45,13 @@ public class ParqueDeAtracciones
         else{
             abierto = false;
         }
+    }
+    
+    public void ImprmirDetalles (){
+        String estado = "No";
+        if (abierto){
+            estado = "Si";
+        }
+        System.out.println("Nombre: " + nombreParque + " || Numero de Atracciones: " + nAtracciones + " || Abierto: " + estado);
     }
 }
