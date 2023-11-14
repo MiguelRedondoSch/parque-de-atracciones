@@ -4,10 +4,10 @@ public class ParqueDeAtracciones
     private int nAtracciones;
     private boolean abierto;
 
-    public ParqueDeAtracciones(int numAtracciones, boolean estaAbierto){
-        nombreParque = "Raptor Park";
-        nAtracciones = numAtracciones;
-        abierto = estaAbierto;
+    public ParqueDeAtracciones(int nAtracciones, String nombreParque){
+        this.nombreParque = nombreParque;
+        this.nAtracciones = nAtracciones;
+        abierto = true;
     }
 
     public String getName(){
@@ -34,8 +34,8 @@ public class ParqueDeAtracciones
         nombreParque = name;
     }
     
-    public void setAtracciones (int nAtraccionesNuevas){
-        nAtracciones += nAtraccionesNuevas;
+    public void setAtracciones (int nAtracciones){
+        this.nAtracciones += nAtracciones;
     }
     
     public void setAbirto (){
