@@ -17,5 +17,5 @@ comment7.target=void\ setAtracciones(int)
 comment8.params=
 comment8.target=void\ setAbirto()
 comment9.params=
-comment9.target=void\ ImprmirDetalles()
+comment9.target=void\ imprimirDetalles()
 numComments=10

@@ -47,7 +47,7 @@ public class ParqueDeAtracciones
         }
     }
     
-    public void ImprmirDetalles (){
+    public void imprimirDetalles (){
         String estado = "No";
         if (abierto){
             estado = "Si";
